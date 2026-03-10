@@ -1,0 +1,10 @@
+import turtle
+t=turtle.Turtle()
+turtle.bgcolor("light green")
+t.pensize(30)
+t.pencolor("red")
+t.fillcolor("yellow")
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+turtle.done()
